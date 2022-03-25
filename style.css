@@ -1,0 +1,175 @@
+/* this is a stylesheet for red harlow */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+header {
+    background-color: #272727;
+    height: 125px;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(107, 1, 1);
+    font-family: 'Satisfy', sans-serif;
+    font-size: 60px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+p {
+    color: rgb(107, 1, 1);
+    font-family: 'Satisfy', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.description {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.main {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    width: 1100px;
+    height: 627px;
+    margin-left: 30px;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color:rgb(107, 1, 1);
+    text-align: left;
+}
+.p {
+    color: white;
+    text-align: left;
+}
+
+.container {
+    margin-top: 40px;
+    float: right;
+    width: 425px;
+    height: 93px;
+}
+
+section {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.iframe {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.pframe {
+    text-align: center;
+}
+
+/* code line for outline text */
+
+.strokeme {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+/* class for a tag */
+
+a {
+    font-size: 30px;
+    color: rgb(114, 0, 0);
+    font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: auto;
+    padding-right: 190px;
+    padding-left: 190px;
+}
+
+.blackbar {
+    width: 1920px;
+    height: 500px;
+    margin-top: 690px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* ICONS SOCIAL MEDIA */
+
+.fa {
+    
+    padding: 10px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 50%;
+    float:right;
+    z-index: -1;
+  }
+
+.fa-facebook {
+    color: rgb(255, 0, 0);
+  }
+
+  .fa-instagram {
+    color: rgb(255, 0, 0);
+  }
+  
+  .fa-twitter {
+    color: rgb(255, 0, 0);
+  }
+  
